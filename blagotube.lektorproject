@@ -1,0 +1,5 @@
+[project]
+name = blagotube
+
+[servers.production]
+target = ghpages://jamestwebber/ja.meswebber.github.io?cname=ja.meswebber.com
