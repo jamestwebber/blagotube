@@ -1,0 +1,17 @@
+title: That was easy
+---
+pub_date: 2016-03-20
+---
+author: James Webber
+---
+body:
+
+### Redecorating
+
+The default style was kind of ugly so I decided to spruce it up with [Tufte CSS](www.daveliepmann.com/tufte-css/) which is exactly what it sounds like.
+
+### A step-by-step account:
+
+ 1. First I downloaded the CSS file and fonts from [their GitHub page](https://github.com/edwardtufte/tufte-css) and added them to this project.
+ 2. Then I changed the `layout.html` file to point to it.
+ 3. That was it! Looks pretty nice without any modifications whatsoever. I may tweak it a little bit later.
