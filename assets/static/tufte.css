@@ -48,6 +48,16 @@ body { width: 87.5%;
        max-width: 1400px;
        counter-reset: sidenote-counter; }
 
+footer {
+    padding: 30px 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 8px 0 0;
+    padding: 0;
+}
+
 h1 { font-weight: 400;
      margin-top: 4rem;
      margin-bottom: 1.5rem;
@@ -118,6 +128,8 @@ blockquote footer { width: 50%;
 ol, ul { width: 45%;
          -webkit-padding-start: 5%;
          -webkit-padding-end: 5%; }
+
+ol li ol, ol li ul, ul li ol, ul li ul { width: 90%; }
 
 li { padding: 0.5rem 0; }
 

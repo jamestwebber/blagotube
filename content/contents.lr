@@ -2,13 +2,23 @@ title: Hi, I'm James
 ---
 body:
 
+### About me
+
 I'm a graduate student in the [bioinformatics](http://bioinformatics.ucsf.edu) program at [UCSF](http://www.ucsf.edu). I'm a joint student in the [Bandyopadhyay](http://www.cancersignaling.net) and [Krogan](http://kroganlab.ucsf.edu) labs.
 
-I decided I should make a blog because Twitter messages are too short to say some things. We'll see how it goes.
+I decided I should make a blog because tweets are too short to say some things. We'll see how it goes.
+
+### Some projects
 
 I've made some random projects in my copious free time.
 
 * [Frameshift](http://frameshift.herokuapp.com) is currently down because of some kind of bug. When it was up, it was an A/B voting site to decide what glasses I should order from [Warby Parker](http://www.warbyparker.com).
   * I'll fix it someday. Maybe even upgrade it? And put it on Github?
 * [Revealed-d3](https://github.com/jamestwebber/revealed3-blank) is a blank template for presentations that use [Reveal.js](http://lab.hakim.se/reveal-js/) and [d3.js](https://d3js.org/). It's pretty simple but I find it useful.
-* This site is (as of today) built using [Lektor](http://www.getlektor.com) and hosted on [GitHub Pages](https://pages.github.com/). The code is hosted [here](https://github.com/jamestwebber/jamestwebber.github.io) if you're really curious.
+* This site is (as of [today](/blog/first-post/)) built using [Lektor](http://www.getlektor.com) and hosted on [GitHub Pages](https://pages.github.com/). The code is hosted [here](https://github.com/jamestwebber/jamestwebber.github.io) if you're really curious.
+
+### Some links
+
+* I'm on [Twitter](https://www.twitter.com/james_t_webber), as I previously mentioned. If you think this website is way too long and/or lacking in cat gifs, you can go there.
+* I'm also on [GitHub](https://www.github.com/jamestwebber), although not as much as I should be.
+* I have an [ORCID](http://orcid.org/0000-0001-8594-9888). I'm not totally sure what I'm doing with it but I fervently believe it's worth having.
