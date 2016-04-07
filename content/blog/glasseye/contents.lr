@@ -1,0 +1,17 @@
+title: Introducing Glasseye, sort of
+---
+pub_date: 2016-04-06
+---
+author: James Webber
+---
+body:
+
+I like how this looks but I wanted more functionality&mdash;particularly the sidenotes from Tufte CSS.<sidenote>Look! A sidenote!</sidenote><marginnote>And yes, this is still a blog about making a blog. I'll get to other topics eventually.</marginnote>
+
+Looking around for options, I stumbled on [Glasseye](http://coppeliamla.github.io/glasseye/glasseye_markdownExample/demo.html), by [Simon Raper](http://www.coppelia.io/author/simonraper/), which looks really nice. He's combining Markdown, Tufte CSS, and [d3.js](https://www.d3js.org) in one package! Those are three things I like! And it's in Python!
+
+After digging into it, I ended up with a fairly stripped-down version of his code, to the extent that I just stuck it straight into a Lektor plugin rather than using the Glasseye package itself<sidenote>That reminds me, I really need to put the _actual code_ for this site up on Github&hellip;</sidenote>. For now I have jettisoned all of his (very nice) d3 charts, because I'm instinctively against the idea of letting _the Man_ design my plots for me. I can make my own d3 charts, thank you very much.<sidenote>But they do look pretty snazzy.</sidenote> I just noticed that the sidenotes don't turn into pop-ups when the screen gets small, which is how they're supposed to work. I should fix that.
+
+On Monday I visited with [Lenny Teytelman](https://twitter.com/lteytelman)<sidenote>I interact with him mostly through Twitter so I might as well link to that.</sidenote> of [Protocols.io](https://www.protocols.io), and we talked about a variety of stuff including the intersection of open-access science publishing and startups. One of the reasons I made this blog was so I could stick those ideas somewhere&hellip;maybe that'll be the next post.
+
+Or maybe I'll change the font sizes and write about that. <marginnote>And I know I'm going crazy with the sidenotes, they're fun.</marginnote>

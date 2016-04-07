@@ -9,6 +9,7 @@ body:
 I've finally caved in to my own egomania and decided that everyone needs to listen to me!
 
 Initial thoughts on [Lektor](http://www.getlektor.com):
+
  * Pretty easy to set up something that works, and I like that it can deploy to GitHub pages automatically.
  * Not as flexible as I would hope&mdash;in fact not very flexible at all. Maybe I will discover more flexibility later.
  * It seems like I pretty much have to nuke my previous page to deploy this but that's what git is for, right? Let's see how it goes.

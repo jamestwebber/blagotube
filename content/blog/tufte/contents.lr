@@ -1,6 +1,6 @@
 title: That was easy
 ---
-pub_date: 2016-03-20
+pub_date: 2016-03-21
 ---
 author: James Webber
 ---
@@ -15,3 +15,7 @@ The default style was kind of ugly so I decided to spruce it up with [Tufte CSS]
  1. First I downloaded the CSS file and fonts from [their GitHub page](https://github.com/edwardtufte/tufte-css) and added them to this project.
  2. Then I changed the `layout.html` file to point to it.
  3. That was it! Looks pretty nice without any modifications whatsoever. I may tweak it a little bit later.
+
+I just retroactively _lied_ and changed the date on this post, solely so that it would show up in the right order on the blog page. Sue me.
+
+I'm not super happy with how it looks right now anyway&mdash;I may decide to get rid of the entire page. Or I just need to write longer blog posts. Luckily no one will ever read this.
