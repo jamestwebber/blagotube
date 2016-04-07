@@ -1,10 +1,10 @@
 <!doctype html>
 <meta charset="utf-8">
 <link rel="stylesheet" href="{{ '/static/tufte.css'|url }}">
-<title>{% block title %}Welcome{% endblock %}</title>
+<title>{% block title %}{% endblock %}{% if this.title %} - {% endif %}NP-Complete Breakfast</title>
 <body>
   <header>
-    <h1>It's a website</h1>
+    <h1>NP-Complete Breakfast</h1>
     <nav>
       <ul class="nav navbar-nav">
         {% for href, title in [
