@@ -3,3 +3,6 @@ name = blagotube
 
 [servers.production]
 target = ghpages+https://jamestwebber/jamestwebber.github.io?cname=ja.meswebber.com
+
+[plugins]
+glasseye = 0.1
