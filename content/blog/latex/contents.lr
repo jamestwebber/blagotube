@@ -1,0 +1,18 @@
+title: I couldn't tell you why I made this
+---
+pub_date: 2016-06-23
+---
+author: James Webber
+---
+body:
+
+Once I thought of it, I had to do it, and this is the least-shameful place to post it. Plus I get to test out the $\LaTeX$ formatting here.
+
+$$James^TWebber =
+\begin{bmatrix}
+JW & Je & Jb & Jb & Je & Jr\\
+aW & ae & ab & ab & ae & ar\\
+mW & me & mb & mb & me & mr\\
+eW & e^2 & eb & eb & e^2 & er\\
+sW & se & sb & sb & se & sr
+\end{bmatrix}$$
