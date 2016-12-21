@@ -4,6 +4,8 @@ pub_date: 2016-04-06
 ---
 author: James Webber
 ---
+published: true
+---
 body:
 
 I like how this looks but I wanted more functionality&mdash;particularly the sidenotes from Tufte CSS.<sidenote>Look! A sidenote! <br><br>And yes, this is still a blog about making a blog. I'll get to other topics eventually.</sidenote>

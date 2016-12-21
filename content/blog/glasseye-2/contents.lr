@@ -4,6 +4,8 @@ pub_date: 2016-04-07
 ---
 author: James Webber
 ---
+published: true
+---
 body:
 
 I fixed the way that Glasseye handles sidenotes and margin notes, so that they auto-hide (with a pop-up link) when the screen is too narrow to accomodate them. Job well done.

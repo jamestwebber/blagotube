@@ -4,7 +4,9 @@
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
   {% for child in this.pagination.items %}
-    {{ render_blog_post(child, from_index=true) }}
+    {%  if child.published %}
+      {{ render_blog_post(child, from_index=true) }}
+    {% endif %}
   {% endfor %}
 
   {{ render_pagination(this.pagination) }}
