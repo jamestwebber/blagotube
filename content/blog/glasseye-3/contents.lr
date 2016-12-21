@@ -1,0 +1,17 @@
+title: More Glasseye
+---
+pub_date: 2016-12-21
+---
+author: James Webber
+---
+body:
+
+Seems like I'm still pretty bad at updating this thing. Partially because I'm sure no one is reading it. Something of a Catch-22 there. So here's another website-customization post!
+
+- - -
+
+### Sections!
+
+[Tufte CSS](https://edwardtufte.github.io/tufte-css/) suggests that you break articles up into sections, with a little bit of padding around them. That was a little tricky to do here because there's no section syntax in Markdown, but since I don't use horizontal rules, I can use that syntax to designate the beginning and ending of sections by replacing the resulting tag in my [fork of Glasseye](https://github.com/jamestwebber/blagotube/blob/master/packages/glasseye/lektor_glasseye.py). It's a little hacky but it'll do. I'd prefer to use BeautifulSoup to do the processing, but I didn't see an easy way to wrap lots of tags into a section.
+
+Because this post is pretty small<sidenote>and also because I found a typo so I was editing it anyway</sidenote>, I broke up the [Team Science](/blog/team-science) post into sections as well.

@@ -3,7 +3,7 @@ from lektor.pluginsystem import Plugin
 from lektor.types import Type
 
 import pypandoc as py
-from bs4 import BeautifulSoup
+import bs4
 
 
 def glasseye_to_html(text):
@@ -39,8 +39,11 @@ def glasseye_to_html(text):
     # Convert markdown to html using pandoc
     converted_html = py.convert(text, 'html', format='md', extra_args=['--mathjax'])
 
+    converted_html = u'<section>{}</section>'.format(
+        converted_html.replace('<hr />', '</section><section>'))
+
     # soupify it
-    soup = BeautifulSoup(converted_html, 'html.parser')
+    soup = bs4.BeautifulSoup(converted_html, 'html.parser')
 
     # Make the changes for the Tufte format
 
@@ -50,6 +53,9 @@ def glasseye_to_html(text):
     # <span class="marginnote">
     #   This is a margin note. Notice there isn’t a number preceding the note.
     # </span>
+
+    # for a in soup.findAll('hr'):
+    #     wrap(a, soup.new_tag("section"))
 
     for i,a in enumerate(soup.findAll('marginnote')):
         lbl = soup.new_tag("label")
@@ -74,6 +80,8 @@ def glasseye_to_html(text):
     # <span class="sidenote">
     #   This is a sidenote.
     # </span>
+
+
 
     for i,a in enumerate(soup.findAll('sidenote')):
         lbl = soup.new_tag("label")
