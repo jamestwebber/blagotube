@@ -20,4 +20,12 @@ In short, I had to [reverse-engineer a QR code library](https://github.com/linco
 
 ## In more detail
 
-Watch this space&mdash;I need to clean up the code and then I'll make a GitHub repo for it to live in.
+The whole thing fits in a [GitHub Gist](https://gist.github.com/jamestwebber/b6dcafdfa35d5c4784fa3b4fc130b03c), if you don't include the required [python-qrcode](https://github.com/lincolnloop/python-qrcode) library. The workflow is fairly simple:
+
+ 1. Get the layout of the QR code<sidenote>This took the longest to figure out. The simplest way was to create a blank code.</sidenote>
+ 2. Load an image and extract the data from it, using the coordinates from 1.
+ 3. For each of the bit masks:
+    * Decode the data from the image, insert the desired URL, and correct any disallowed or undesirable bits.
+    * Recode the data and calculate the correct EC bits
+    * Insert data and EC into the image and display it
+ 4. Choose which of the masks is best
