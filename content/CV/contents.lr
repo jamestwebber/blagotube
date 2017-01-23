@@ -1,0 +1,43 @@
+title: CV
+---
+body:
+
+## James T Webber
+
+### Education
+ * [University of California, San Francisco](http://www.ucsf.edu)
+    * 2011 to present
+    * PhD candidate, [Bioinformatics](http://bioinformatics.ucsf.edu) program
+    * Advisors: Professor [Sourav Bandyopadhyay](http://www.cancersignaling.net) & Professor [Nevan Krogan](http://kroganlab.ucsf.edu)
+ * [Cornell University](http://www.cornell.edu), College of Arts and Sciences
+    * 2004 to 2008 
+    * Bachelor of Arts, Computation Biology and Computer Science
+
+### Experience
+## Graduate Research Assistant
+#### September 2011 – present
+#### Dr. Sourav Bandyopadhyay & Dr. Nevan Krogan, UCSF
+ * Modeling drug sensitivity in breast cancer by integrating systems-levels ‘omics datasets.
+ * Developing methods to integrate genomic and proteomic data from tumor samples and cancer-derived cell lines together with drug response data to identify new biomarkers and subtypes.
+ * Analyzing quantitative mass-spectrometry data to characterize the kinase activity profile of breast cancer cell lines after treatment with a panel of targeted inhibitors.
+ * Currently developing an ensemble model of drug response based on single-cell heterogeneity data
+
+## Bioinformatics Engineer
+#### March 2009 – August 2011 
+#### Dr. Jarrod Marto, Dana-Farber Cancer Institute, Boston, MA
+ * Main developer for Multiplierz, an open-source Python-based environment for mass-spectrometry based proteomics.
+ * Implemented an automated pipeline for data acquisition, storage, analysis and post-processing.
+ * Developed a new database-based format and interactive viewer for efficiently sharing the results of proteomic experiments.
+ * Assisted in developing a web-based API for sharing mass spectrometry data.
+ * Worked with multiple researchers in the lab to write customized data analysis workflows.
+
+## Teaching & Outreach
+ * [Contributor](https://www.github.com/jamestwebber) to OSS projects including NumPy, SciPy, Scikit-Learn, PyMC3, and MSstats.
+ * Volunteer instructor, [Science & Health Education Partnership](http://biochemistry2.ucsf.edu/programs/sep/).
+ * Teaching assistant to [Prof. Joe DeRisi](http://derisilab.ucsf.edu/), Dynamical Systems Lab.
+ * Helped plan and teach first-year graduate orientation program, 2012-2015.
+
+## Publications
+ * [ORCID profile](https://orcid.org/0000-0001-8594-9888) 
+ * [Google Scholar citations](https://scholar.google.com/citations?user=iUohg6MAAAAJ)
+ 

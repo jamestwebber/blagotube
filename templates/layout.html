@@ -1,13 +1,17 @@
 <!doctype html>
-<meta charset="utf-8">
-<link rel="stylesheet" href="{{ '/static/tufte.css'|url }}">
-<title>{% block title %}{% endblock %}{% if this.title %} - {% endif %}NP-Complete Breakfast</title>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ '/static/tufte.css'|url }}">
+    <title>{% block title %}{% endblock %}{% if this.title %} - {% endif %}NP-Complete Breakfast</title>
+    <meta name="google-site-verification" content="9lGZ6-UPsP8zQZOJKMNRxS-rSIE6OtRvjFeOLW7Z_jk" />
+</head>
 <body>
   <header>
     <h4>NP-Complete Breakfast</h4>
     <nav>
       <ul class="nav navbar-nav">
         {% for href, title in [
+          ['/CV', 'CV'],
           ['/blog', 'Blog'],
         ] %}
           <li{% if this.is_child_of(href) %} class="active"{% endif

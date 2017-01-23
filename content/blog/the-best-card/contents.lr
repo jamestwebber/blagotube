@@ -1,0 +1,23 @@
+title: Behold: the QR card
+---
+pub_date: 2017-01-22
+---
+author: James Webber
+---
+published: true
+---
+body:
+
+I'm inordinately pleased with this<sidenote>That's me, in case you can't tell</sidenote>.
+
+<image height="200" src="/static/qrcard.png"/>
+
+## How it works
+
+It turns out that getting an arbitrary image into a QR code is annoying difficult. Or at least it took me quite a while to do it&mdash;partially due to inertia, as it took the concentrated boredom of a trip home for the holidays to get me focused enough to crack it. In the end, the code is fairly simple.
+
+In short, I had to [reverse-engineer a QR code library](https://github.com/lincolnloop/python-qrcode), figure out where the data was stored, put in the data I wanted, and then calculate the corresponding error correction code so that the thing would scan properly.
+
+## In more detail
+
+Watch this space&mdash;I need to clean up the code and then I'll make a GitHub repo for it to live in.
