@@ -10,7 +10,7 @@ I'm a graduate student in the [bioinformatics](http://bioinformatics.ucsf.edu) p
 
 I decided I should make a blog because tweets are too short to say some things. We'll see how it goes.
 
-Just now I realized I'm about to give a lot of people at [PMWC](http://www.pmwcintl.com/2017sv/)<sidenote>Hi there, PMWC people. I wrote a post [about that card](blog/the-best-card).</sidenote> a link to this website and I should probably add some Premium Content&trade;. Or at least [my CV](/CV).
+You're probably here because I gave you [my card](blog/the-best-card). You can read about it there. Or you could read [my CV](/CV) instead.
 
 ### Some links
 
@@ -26,3 +26,7 @@ I've made some random projects in my copious free time.
 * [Revealed-d3](https://github.com/jamestwebber/revealed3-blank) is a blank template for presentations that use [Reveal.js](http://lab.hakim.se/reveal-js/) and [d3.js](https://d3js.org/). It's pretty simple but I find it useful.
 * [Frameshift](http://frameshift.herokuapp.com) is currently down, but When it was up, it was an A/B voting site to decide what glasses I should order from [Warby Parker](http://www.warbyparker.com).
     * I'll fix it someday. Maybe even upgrade it? And put it on GitHub.
+
+### Contact
+
+* You can email me at j@meswebber, unless you're a robot, in which case don't<sidenote>Unless you're a really cool robot</sidenote>.
