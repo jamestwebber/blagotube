@@ -1,0 +1,69 @@
+title: Journals! What Are They Good For?
+---
+pub_date: 2016-04-??
+---
+author: James Webber
+---
+published: false
+---
+body:
+
+Here's my publishing manifesto, or something like that. Not that I have any of this stuff figured out, of course. But I feel like I need to plant a flag somewhere, so I have something to point at.
+
+## Step 1: PPPR
+
+I'm not going over the reasons that the current scientific publishing system is broken. I'll start by assuming that you, the reader, are basically on board (or at least pretty familiar) with these ideas:<sidenote>Assuming you're some kind of scientist. If you aren't then all of this might be pretty confusing.</sidenote>
+
+ 1. Our work should always be open-access.
+ 2. In fact, we should publish pre-prints so that our work gets out before the review process is finished.
+ 3. And hey, if we're going to put our work out there as a pre-print, we might as well do the reviewing in public, too.
+
+For brevity I'll refer to that train of thought as the **Post-Publication Peer Review** (PPPR) scheme. You can make a strong argument that this scheme leads to all kinds of benefits: faster scientific progress, a more level playing field, wider dissemination of knowledge, and so on.<sidenote>There are also some criticisms and concerns with how viable the PPPR scheme is, but I don't think I can do them justice so I won't try to summarize them.</sidenote> You can read a more thorough discussion about this [in this blog post from Michael Eisen](http://www.michaeleisen.org/blog/?p=1820), or honestly in almost any random blog post from Michael Eisen.
+
+There have been some cool ideas that grow out of this, like the concept of an [overlay journal](https://en.wikipedia.org/wiki/Overlay_journal). This is a journal that points to existing preprints rather than re-formatting and re-publishing them on its own servers or even (if you can imagine such a thing) on paper. An example of an overlay journal that points to arXiv prints is [Discrete Analysis](http://discreteanalysisjournal.com/for-authors), but they certainly aren't the first or the last.
+
+## Step 2: ???
+
+I have drunk copious amounts of the PPPR Kool-Aid™&mdash;I'm convinced that we need to publish early and do so in an open manner. My main concern<sidenote>And the only thing that makes this post different from any other post about PPPR</sidenote> is about what PPPR _doesn't_ fix, and about what arises from the rubble of the journal system. I was trying to come up with a catchy list of topics to go into here but I really only have one.
+
+### Getting Scooped Still Sucks
+
+One of the main concerns people have with pre-prints is that it will cause them to be scooped&mdash;they'll put their research out there, some other lab will read it, and that lab will race to publish the same work "first" in a refereed journal.<marginnote>Some of this belongs in the possibly-mythical post about academia that I'm planning to write.</marginnote>
+
+This is a pretty silly concern because you can't scoop something that's already published (and pre-prints _are_ published). Furthermore, malicious scooping is probably [quite rare](http://drugmonkey.scientopia.org/2016/04/07/the-girl-who-cried-scoop/)&mdash;it's more likely that the other lab just doesn't know what you're working on.<sidenote>I'll get to that problem in a minute.</sidenote>
+
+But those answers sidestep a bigger issue, which is that **scooping shouldn't be a thing in the first place.** Research projects take years, but being a month later to publication is called "being scooped". That creates a crazy environment for doing research, and we all are worse off for it:
+
+ * It's *ridiculously* stressful, particularly for less-established scientists and trainees. Through no fault of their own, their career trajectory can be permanently altered. This kind of thing drives people out of science.
+ * It discourages labs without major resources from working in competitive areas. These are often the areas where we'd benefit most from fresh ideas.
+ * When there is an "obvious" advance to be made, there's a mad rush to get there first and claim credit. This is a waste of time and resources, and it creates dangerous incentives for doing bad science.
+
+PPPR doesn't address this issue, so far as I can see. Instead of being scooped when you see the work in print, it happens when you see the work as a preprint. If we assume that preprints are deposited at about the same point that papers get submitted for review, this means a difference of several months but rarely more. In the cases when getting scooped really hurts&mdash;after multiple years of effort&mdash;it'll still really hurt.<marginnote>The focus on priority is still relevant to questions of intellectual property and patents and whatnot. There's a whole secondary discussion to be had about those issues. They'll probably continue to exist regardless of the system we adopt.</marginnote>
+
+Whatever system we have, it shouldn't punish people for finding similar results simultaneously. If anything we should celebrate such discoveries: they are wholly independent replications of the finding! We don't get enough of that as it is.
+
+### Redundant Work is a Waste
+
+While it's great to get independent validation of a result, it would likely be even better if those groups _knew_ they were working on the same topic, and instead of competing with each other to publish first, they formed a loose collaboration and worked together. This doesn't need to be a formal endeavor&mdash;tight collaboration requires a lot of work to maintain, and when done poorly it leads to a lot of headaches. A loose collaboration is more about sharing protocols, preliminary and negative results, and ideas. This can be common within an institution but is typically rare when there is no pre-existing relationship between labs.
+
+Often a type of collaboration can happen late in the game: two groups will learn of each other and try to publish together. That might not involve any real exchange of knowledge, and barely qualifies as collaboration in my mind.<sidenote>It might be better described as collusion</sidenote> Those groups are trying to solve the prisoner's dilemma that comes from the threat scooping&mdash;if one publishes first they get more glory, but the arbitrary delays of publication mean they risk losing it all to the other group. Publishing together is safer.
+
+## Step 3: Non-profit!
+
+Here is where I am supposed to lay out a proposal for solving those problems. Unfortunately I don't really have one. I do have some vague ideas about how I _wish_ research worked, and I'll outline those ideas here.
+
+### Open Notebooks
+
+Rather than doing our work privately and then publishing a complete story at the end, we should be transparent about the (usually messy!) process, and _highlight_ the results we think they are notable enough to share with the community.
+
+I'm hardly the first person to suggest this&mdash;many scientists are already doing it.<sidenote>Which is super impressive&mdash;it's scary to put your work out there that way</sidenote> To change the culture of research, however, it can't just be a handful of idealists: it needs to be the standard practice. Unfortunately there isn't a whole lot of reason to do it. The potential benefits for _other_ people are easy to imagine:
+
+ * Access to data as soon as they are collected allows other researchers to build on results quickly.
+ * Many eyes on data helps prevent errors and allows for novel interpretations, free from the bias or preferred outcome of the experimenter.
+ * Public notebooks prevent p-hacking and all kinds of other shady practices. It also provides an honest account of the _progression_ of the research, instead of the Newspeak-like "we have always been working on protein X" narrative of a paper.
+
+
+
+<marginnote>To be clear, I realize that the paper lab notebook isn't going away. It's just too useful, and paper tends to last longer than bits despite our best efforts. We still need a way to share our progress as it happens.</marginnote>
+
+
