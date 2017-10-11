@@ -144,7 +144,7 @@ def glasseye_to_html(text):
 #         tag = soup.new_tag("br")
 #         d[1].insert_after(tag)
 
-    return unicode(soup)
+    return str(soup)
 
 
 # Wrapper with an __html__ method prevents

@@ -1,10 +1,10 @@
 title: Journals! What Are They Good For?
 ---
-pub_date: 2016-04-??
+pub_date: 2017-10-10
 ---
 author: James Webber
 ---
-published: false
+published: true
 ---
 body:
 
@@ -24,7 +24,7 @@ There have been some cool ideas that grow out of this, like the concept of an [o
 
 ## Step 2: ???
 
-I have drunk copious amounts of the PPPR Kool-Aid™&mdash;I'm convinced that we need to publish early and do so in an open manner. My main concern<sidenote>And the only thing that makes this post different from any other post about PPPR</sidenote> is about what PPPR _doesn't_ fix, and about what arises from the rubble of the journal system. I was trying to come up with a catchy list of topics to go into here but I really only have one.
+I have drunk copious amounts of the PPPR Kool-Aid™&mdash;I'm convinced that we need to publish early and do so in an open manner. My main concern<sidenote>And the only thing that makes this post different from any other post about PPPR</sidenote> is about what PPPR _doesn't_ fix, and about what arises from the rubble of the current system of journals.
 
 ### Getting Scooped Still Sucks
 
@@ -36,9 +36,9 @@ But those answers sidestep a bigger issue, which is that **scooping shouldn't be
 
  * It's *ridiculously* stressful, particularly for less-established scientists and trainees. Through no fault of their own, their career trajectory can be permanently altered. This kind of thing drives people out of science.
  * It discourages labs without major resources from working in competitive areas. These are often the areas where we'd benefit most from fresh ideas.
- * When there is an "obvious" advance to be made, there's a mad rush to get there first and claim credit. This is a waste of time and resources, and it creates dangerous incentives for doing bad science.
+ * When there is an "obvious" advance to be made, there's a mad rush to get there first and claim credit. This is a waste of time and resources, it creates dangerous incentives for doing bad science, and it leads to widely-covered multi-million-dollar patent disputes.
 
-PPPR doesn't address this issue, so far as I can see. Instead of being scooped when you see the work in print, it happens when you see the work as a preprint. If we assume that preprints are deposited at about the same point that papers get submitted for review, this means a difference of several months but rarely more. In the cases when getting scooped really hurts&mdash;after multiple years of effort&mdash;it'll still really hurt.<marginnote>The focus on priority is still relevant to questions of intellectual property and patents and whatnot. There's a whole secondary discussion to be had about those issues. They'll probably continue to exist regardless of the system we adopt.</marginnote>
+PPPR doesn't address this issue, so far as I can see. Instead of being scooped when you see the work in print, it happens when you see the work as a preprint. If we assume that preprints are deposited at about the same point that papers get submitted for review, this means a difference of several months but rarely more. In the cases when getting scooped really hurts&mdash;after multiple years of effort&mdash;it'll still really hurt.<marginnote>The focus on priority is still relevant to questions of intellectual property and patents and whatnot. There's a whole secondary discussion to be had about those issues. They'll probably continue to exist regardless of the system we adopt, but first-to-file may have obviated some of the problems there.</marginnote>
 
 Whatever system we have, it shouldn't punish people for finding similar results simultaneously. If anything we should celebrate such discoveries: they are wholly independent replications of the finding! We don't get enough of that as it is.
 
@@ -46,7 +46,7 @@ Whatever system we have, it shouldn't punish people for finding similar results 
 
 While it's great to get independent validation of a result, it would likely be even better if those groups _knew_ they were working on the same topic, and instead of competing with each other to publish first, they formed a loose collaboration and worked together. This doesn't need to be a formal endeavor&mdash;tight collaboration requires a lot of work to maintain, and when done poorly it leads to a lot of headaches. A loose collaboration is more about sharing protocols, preliminary and negative results, and ideas. This can be common within an institution but is typically rare when there is no pre-existing relationship between labs.
 
-Often a type of collaboration can happen late in the game: two groups will learn of each other and try to publish together. That might not involve any real exchange of knowledge, and barely qualifies as collaboration in my mind.<sidenote>It might be better described as collusion</sidenote> Those groups are trying to solve the prisoner's dilemma that comes from the threat scooping&mdash;if one publishes first they get more glory, but the arbitrary delays of publication mean they risk losing it all to the other group. Publishing together is safer.
+Often a type of collaboration can happen late in the game: two groups will learn of each other and try to publish together. That might not involve any real exchange of knowledge, and barely qualifies as collaboration in my mind.<sidenote>It might be better described as collusion</sidenote> Those groups are trying to solve the prisoner's dilemma that comes from the threat scooping&mdash;if one publishes first they get more glory, but the arbitrary delays of publication mean they risk losing it all to the other group. Publishing together is safer. But most of the hard work was done in parallel, without any communication between labs. This is a waste of a lot of people's time and money, and leaves a more confusing scientific literature for everyone to look at later.
 
 ## Step 3: Non-profit!
 
@@ -60,10 +60,25 @@ I'm hardly the first person to suggest this&mdash;many scientists are already do
 
  * Access to data as soon as they are collected allows other researchers to build on results quickly.
  * Many eyes on data helps prevent errors and allows for novel interpretations, free from the bias or preferred outcome of the experimenter.
- * Public notebooks prevent p-hacking and all kinds of other shady practices. It also provides an honest account of the _progression_ of the research, instead of the Newspeak-like "we have always been working on protein X" narrative of a paper.
+ * Public notebooks prevent _p_-hacking and all kinds of other shady practices.
+ * It also provides an honest account of the _progression_ of the research, instead of the Newspeak-like "we have always been working on protein X" narrative of a paper.
 
-
+ That last point is important: being more open about how research is done is good for public engagement and it's good for the mental health of trainees, who get to see that their own experience is the norm. Research is _hard_ and the research community should stop pretending otherwise.
 
 <marginnote>To be clear, I realize that the paper lab notebook isn't going away. It's just too useful, and paper tends to last longer than bits despite our best efforts. We still need a way to share our progress as it happens.</marginnote>
 
+What's less clear is why any individual would pursue this strategy. Beyond gaining some recognition and reputation for having the _chutzpah_ to be open, it seems to present much more risk than reward. This is where the whole ecosystem needs to change, in a major way: we need a system that allows open collaboration at any level of engagement, and can aggregate that collaboration and contribution into a CV that the researcher can point to in the future. Luckily, we have a reasonably good model for what this could look like.
 
+### The GitHub Model
+
+Open source software provides a model, albeit imperfect, for how to build this ecosystem. GitHub in particular is the _de facto_ clearinghouse for a developer to display their credentials.<sidenote>To be honest I don't know how true this is nowadays</sidenote> Every contribution is recorded: from personal projects and major contributions to public resources, all the way down to opening a bug report on an obscure repository. Moreover, the quality of the work can be _inspected_: one can read the code that they are writing and judge its quality. One can see how they interact with other projects and whether they provide helpful feedback or pointless criticism.
+
+The equivalent ecosystem for researchers is really quite similar: a site<sidenote>Or a federation of sites!</sidenote> where researchers can deposit their data, analyze and discuss their results, and collaborate with others at many levels.<marginnote>Just as with code, there will always be "private repos" of work that is not yet ready to be released. But as the ecosystem evolves I think these will become less common. Everyone starts with a mess and refines it slowly&mdash;everyone mislabels data and makes mistakes and recalculates. These mistakes are normal and don't need to be hidden, and starting from scratch in the open allows us to build bootstrapping materials that get projects started faster.</marginnote> Collaboration could range from helpful trouble-shooting to in-depth peer review&mdash;with open data and reproducible analysis pipelines, peer review can involve independent validation and reproduction of the analyses. Every researcher always has an up-to-date CV that includes their own work, their collaborations big and small, and their service in the form of peer review and any other contributions to the scientific community.
+
+## Journals: what are they good for? Journalism!
+
+To return to the title of this post: whither the existing journals in this future utopia? It's a common expectation that PPPR will make journals obsolete, because the ecosystem of preprints and public review will destroy the need for subscriptions.<sidenote>This is mentioned in Eisen's post, for instance</sidenote> I don't know if it would, but I definitely don't think it _should_ do such a thing. Journals are legitimately useful in many ways: they highlight notable research (as best they can); they report on news relevant to their target community; and they provide a secondary perspective, typically from an eminent third-party, for particularly interesting work. Journals also tend to publish reviews which can provide a useful overview of a given topic&mdash;typically these reviews are invited publications and thus fall outside of the typical peer-review process.
+
+All of these services are useful for researchers, and it's not difficult to imagine a journal that provides _only_ those services: one that highlights notable work (in preprint form or even straight from a public notebook) rather than trying to filter out the most "impactful" work from an ocean of research. A journal that focused on _science journalism_ would be less biased by famous names and cozy relationships.<sidenote>but surely still biased, just like any media can be</sidenote> They would be reacting to impactful research rather than decreeing what research should be impactful.
+
+In this scenario it seems likely there would be far fewer journals&mdash;given the vast number of predatory and/or poorly-edited journals, this is probably a good thing. Journals that provide a value-add beyond "you're published" will still be viable&mdash;certainly the likes of _Science_ and _Nature_ will stick around to report on matters of interest to the entire scientific community. This will include reporting on the most notable research being done, but their role will be quite different: they will be obligated to discuss the work that the community deems notable, rather than being the gatekeepers who selected it.
