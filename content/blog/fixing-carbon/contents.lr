@@ -1,0 +1,67 @@
+title: How to Save the World (Do Not Attempt)
+------------------------------------
+pub_date: 2018-12-01
+---
+author: James Webber
+---
+published: true
+---
+body:
+
+__Warning__  : what follows are the hare-brained ideas of a mad<sidenote>Or at least fairly irate.</sidenote> scientist. Before undertaking any dangerous, untested geo-engineering project that has the potential to destroy life as we know it, you should consult with your physician, physicist, psychic, and/or psychiatrist.
+
+I want to specifically emphasize that there are a lot of open questions and missing details in the ideas below. This essay is not meant as a solution<sidenote>And definitely not as a magic bullet that obviates the need for other solutions.</sidenote> but rather as an exhortation to undertake the research that can answer these questions while there is still time for the answers to be useful.
+
+- - -
+
+## Climate change is the biggest catastrophe in history
+
+There are so many terrible things happening all at once, it's hard to keep track of all them. Originally I had a long section here laying out how big the problem is and how little we've done to stop it, but you probably know all of that already.<marginnote>In case you managed to forget for a few seconds: the world is warming at an alarming rate. We just got the [latest report](https://nca2018.globalchange.gov/) on the danger, but there have been reports like that for a long time. It's hard to imagine the emissions picture changing in the near term, and we only have [about a decade](http://www.ipcc.ch/report/sr15/) if we want to avoid the worst consequences.</marginnote> I'll keep it short and assume you're onboard with the title of this section.
+
+The looming disaster scenarios and our collective failure to take action has led a lot of people to think about options that don't involve reaching a global agreement on energy conservation. Most of these options involve ways of getting CO<sub>2</sub> out of the atmosphere and sticking it somewhere safe. Unfortunately most of these options are pretty lousy. The big problem is scale. Since the industrial revolution we've added about 1600 gigatons of carbon dioxide into the atmosphere<sidenote>source: [this infographic and their sources](https://informationisbeautiful.net/visualizations/how-many-gigatons-of-co2/)</sidenote>. We continue to dump more at a rate of >30Gt CO<sub>2</sub> per year<sidenote>source: [IEA](https://www.iea.org/geco/emissions/)</sidenote>.
+
+I have yet to see any carbon sequestration plan that can come anywhere close to capturing that amount of carbon. The usual proof of concept is minuscule, and at realistic scales it is still a drop in the bucket compared to global emissions. Is sequestration is going to work, it has to work at the multi-gigaton scale. Any energy-intensive method of sequestration runs into a green twist on the [rocket equation](https://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation): you'll do a lot of work to offset all the carbon you emitted to do the sequestration itself, and if you aren't extremely efficient this will massively increase the amount of effort needed in the end.<marginnote>The other big strategy is to [block some of the sunlight hitting us](http://iopscience.iop.org/article/10.1088/1748-9326/aae98d). I consider that plan even more crazy and outlandish than the one I'm going to outline below. And for what it's worth, it would likely be far more expensive.</marginnote>
+
+Furthermore, most technologies are not scalable as long as humans are needed: if sequestering one ton of carbon required one person to work for one hour, we'd need >15 million people working full-time to offset our current emissions, with no source of funding in sight. A practical sequestration strategy needs to be "too cheap to meter"&mdash;so efficient that the cost per ton goes to zero.
+
+- - -
+
+## Cyanobacteria: processing carbon at scale
+
+Unsurprisingly, this is where a biologist says that biology offers a solution. While biological organisms are frustratingly messy and chaotic and difficult to understand, they're also amazingly efficient, at a scale that no human technology can touch. I'm certainly biased, but I can't think of a more plausible way to sequester carbon than to engineer [cyanobacteria](https://en.wikipedia.org/wiki/Cyanobacteria)<sidenote>Sometimes known as "blue-green algae", but they aren't really algae.</sidenote> to more efficiently capture sunlight and fix carbon into sugar, where it can be introduced to the food chain and sequestered for the long term by larger organisms.
+
+A promising candidate for this type of project is [_Prochlorrococcus_](https://en.wikipedia.org/wiki/Prochlorococcus), a.k.a. photosynthetic picoplankton. These are some of most abundant organisms on Earth, with an estimated $2.8 - 3 x 10^{27}$ living in the world's oceans. To put that number in perspective:
+
+    Humans (est.)                                7,000,000,000
+    Human cells                  2,100,000,000,000,000,000,000
+    Prochlorrococcus     3,000,000,000,000,000,000,000,000,000 (!)
+
+At $3 x 10^{-14}$ g of carbon per cell<sidenote>source: [Cermak _et al._](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5322313/)</sidenote>, the existing population of picoplankton contains roughly 81 megatons of carbon. If they divide once per day, that adds up to about 30Gt per year<sidenote>This is a very rough estimate, but it's on the same order as real research e.g. [Johnson & Zinser _et al._](http://science.sciencemag.org/content/311/5768/1737)</sidenote>. To offset our current emissions, we'd need to roughly double that cycling population, assuming the excess population was being absorbed into the oceanic ecosystem and thereby sequestered<sidenote>This is a huge assumption and one of those "open questions" I mentioned at the beginning.</sidenote>.
+
+We know that this could at least theoretically work, because it's the reason that our atmosphere isn't full of carbon dioxide in the first place. Roughly 2.45 billion years ago, the first organisms that were able to fix carbon from the atmosphere grew at such a prodigious rate that they converted our atmosphere from CO<sub>2</sub>-rich to O<sub>2</sub>-rich. This wiped out a lot of the existing (anaerobic) life on Earth, in what's been called [the Oxygen Catastrophe](https://en.wikipedia.org/wiki/Oxygen_Catastrophe). Such is the power of little microbes in big numbers.
+
+What's even more amazing about this is that they pulled it off with such a lousy enzyme playing the key part.
+
+- - -
+
+## RuBisCO is a bad enzyme and it should feel bad
+
+The most abundant enzyme on Earth is [RuBisCO](https://en.wikipedia.org/wiki/RuBisCO): the protein responsible for converting carbon dioxide into something life can metabolize. The reason it's so abundant is not only because of its important role&mdash;it's because RuBisCO is not very good at capturing carbon dioxide, and it is usually the rate-limiting step in the photosynthetic pathway.<marginnote>RuBisCO's inefficiency is largely because it has a difficult time distinguishing between carbon dioxide and oxygen&mdash;if you can imagine the shape of each molecule, you might see why they'd be hard to tell apart. If the enzyme accidentally grabs an O<sub>2</sub> molecule, it still reacts, but only creates byproducts that the organism must spend additional energy cleaning up. It's hard for the enzyme to become better at binding CO<sub>2</sub> without also increasing this byproduct effect. Research suggests that most plants have a version of RuBisCO that is closely adapted to the CO<sub>2</sub> and O<sub>2</sub> concentrations of their natural habitat (see [Studer _et al._](http://www.pnas.org/content/111/6/2223)), and efforts to engineer the enyzme toward higher efficiency have been mostly fruitless (pun intended).</marginnote>
+
+It seems strange that such an important enzyme would be so inefficient, but it makes a little more sense in light of the evolutionary history that led to its existence. At the dawn of photosynthetic life, there was essentially no molecular oxygen in the atmosphere and oceans. Thus, there wasn't any pressure to become particularly selective for CO<sub>2</sub> over O<sub>2</sub>, and organisms with RuBisCO were just as good as any alternative. Billions of years later, conditions are quite different, but there's no evolutionary path for an organism to develop a better version of the enzyme. We'll have to engineer one, instead.
+
+
+- - -
+
+## Why this almost certainly wouldn't work
+
+I'll be honest here: there are a lot of reasons that this won't work and at least as many reasons why we shouldn't try it even if it might. But given the alternative, I'm not sure all of those reasons rule it out as a possible strategy. The resources required to
+
+I'll probably edit this post later, but for now I'm going to leave it as the intro to a series of posts:
+
+ * Introduction (that's this post)
+ * A brief overview of the idea
+ * Maintaining isolation in the wild
+ * How to beat wild-type and why it might be possible
+ * A few of the (many) ways this won't work
+ * A project plan and wishlist
