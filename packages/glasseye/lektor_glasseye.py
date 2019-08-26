@@ -37,7 +37,7 @@ def glasseye_to_html(text):
 #    tufte_template = "templates/tufteTemplate.html"
 
     # Convert markdown to html using pandoc
-    converted_html = py.convert(text, 'html', format='md', extra_args=['--mathjax'])
+    converted_html = py.convert_text(text, 'html', format='md', extra_args=['--mathjax'])
 
     converted_html = u'<section>{}</section>'.format(
         converted_html.replace('<hr />', '</section><section>'))
