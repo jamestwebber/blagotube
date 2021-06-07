@@ -14,10 +14,18 @@ body:
     * Bachelor of Arts, Computation Biology and Computer Science
 
 ### Experience
+## Computational Scientist
+#### January 2021 - present
+#### Macosko Lab, Broad Institute
+ * Single-cell biology, this time in the brain
+ * Learning about GCP
+
 ## Bioinformatics Scientist
-#### July 2017 - present
+#### July 2017 - December 2020
 #### Data Sciences, Chan-Zuckerberg Biohub
- * More details coming ~~soon~~ someday.
+ * Learned a lot about single-cell RNA sequencing
+ * Learned a lot about AWS
+ * Learned _far too much_ about NovaSeq raw data. See [here](https://github.com/czbiohub/bcl2fastr) for details.
 
 ## Graduate Research Assistant
 #### September 2011 – July 2017
