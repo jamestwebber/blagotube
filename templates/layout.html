@@ -4,6 +4,8 @@
     <link rel="stylesheet" href="{{ '/static/tufte.css'|url }}">
     <title>{% block title %}{% endblock %}{% if this.title %} - {% endif %}NP-Complete Breakfast</title>
     <meta name="google-site-verification" content="9lGZ6-UPsP8zQZOJKMNRxS-rSIE6OtRvjFeOLW7Z_jk" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
   <header>
@@ -26,9 +28,6 @@
     {% block body %}{% endblock %}
   </div>
   <footer>
-    &copy; Copyright 2016-2019 by James Webber.
+    &copy; Copyright 2016-2021 by James Webber.
   </footer>
-<script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
 </body>
